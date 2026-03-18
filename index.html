@@ -8,74 +8,150 @@
 </head>
 <body>
   <header class="hero">
-    <h1>Zohré Shafiee</h1>
-    <p>Étudiante en TAL / Informatique linguistique</p>
-    <p>Recherche une alternance en NLP, TAL, IA ou traitement de données linguistiques</p>
+    <nav class="navbar">
+      <div class="logo">Zohré Shafiee</div>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="tag">Étudiante en TAL • NLP • Informatique linguistique</p>
+        <h1>Je construis un profil à l’interface entre langage et informatique.</h1>
+        <p>
+          Je recherche une alternance en traitement automatique des langues,
+          intelligence artificielle et traitement de données textuelles.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">Voir mes projets</a>
+          <a class="btn secondary" href="mailto:votre.email@example.com">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar">ZS</div>
+        <h3>Zohré Shafiee</h3>
+        <p>M1 TAL – Université Grenoble Alpes</p>
+        <p>Recherche alternance 2026</p>
+      </div>
+    </div>
   </header>
 
   <main class="container">
-    <section>
+    <section id="about" class="section reveal">
       <h2>À propos</h2>
       <p>
-        Je développe un profil à l’interface entre linguistique et informatique, avec un intérêt
-        particulier pour le traitement automatique des langues, l’apprentissage automatique
-        et l’exploitation de données textuelles.
+        Actuellement étudiante en M1 Industries de la Langue – Traitement Automatique
+        des Langues à l’Université Grenoble Alpes, je développe un profil mêlant
+        analyse linguistique, programmation et exploitation de données.
+      </p>
+      <p>
+        Je m’intéresse particulièrement au TAL, au NLP, à l’apprentissage automatique,
+        au web scraping et aux applications concrètes de l’informatique au langage.
       </p>
     </section>
 
-    <section>
+    <section id="skills" class="section reveal">
       <h2>Compétences</h2>
-      <ul>
-        <li>Python, Java, HTML/CSS, JavaScript, PHP, XML</li>
-        <li>Traitement de corpus, classification, évaluation</li>
-        <li>Web scraping, structuration de données</li>
-        <li>TAL, linguistique, données textuelles</li>
-      </ul>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Langages</h3>
+          <p>Python, Java, HTML, CSS, JavaScript, PHP, XML</p>
+        </div>
+        <div class="card">
+          <h3>Traitement de données</h3>
+          <p>Classification, évaluation, structuration, prétraitement</p>
+        </div>
+        <div class="card">
+          <h3>Technologies</h3>
+          <p>Web scraping, technologies web, bases de données, GitHub</p>
+        </div>
+        <div class="card">
+          <h3>Domaines</h3>
+          <p>TAL, données textuelles, corpus, linguistique computationnelle</p>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <section id="projects" class="section reveal">
       <h2>Projets</h2>
 
-      <article class="card">
+      <div class="project-card">
         <h3>Évaluation d’un étiqueteur morphosyntaxique</h3>
-        <p>Analyse et évaluation des performances d’un système sur des données annotées.</p>
-        <p><strong>Technologies :</strong> Python</p>
-      </article>
+        <p>
+          Projet universitaire centré sur l’analyse des performances d’un système
+          d’étiquetage morphosyntaxique à partir de données annotées.
+        </p>
+        <span class="badge">Python</span>
+        <span class="badge">TAL</span>
+        <span class="badge">Évaluation</span>
+      </div>
 
-      <article class="card">
+      <div class="project-card">
         <h3>Classification de données linguistiques</h3>
-        <p>Mise en œuvre d’un projet de classification appliqué à des données textuelles.</p>
-        <p><strong>Technologies :</strong> Python</p>
-      </article>
+        <p>
+          Mise en œuvre d’un projet de classification sur des données textuelles,
+          avec structuration des données et interprétation des résultats.
+        </p>
+        <span class="badge">Python</span>
+        <span class="badge">Classification</span>
+      </div>
 
-      <article class="card">
+      <div class="project-card">
         <h3>Création de base de données par web scraping</h3>
-        <p>Collecte, nettoyage et structuration de données depuis le web.</p>
-        <p><strong>Technologies :</strong> Python, scraping</p>
-      </article>
+        <p>
+          Collecte, nettoyage et organisation de données extraites du web
+          afin de constituer une base exploitable.
+        </p>
+        <span class="badge">Python</span>
+        <span class="badge">Scraping</span>
+        <span class="badge">Données</span>
+      </div>
 
-      <article class="card">
+      <div class="project-card">
         <h3>Développement web</h3>
-        <p>Réalisation de pages et fonctionnalités web dans le cadre de projets universitaires.</p>
-        <p><strong>Technologies :</strong> HTML/CSS, JavaScript, PHP</p>
-      </article>
+        <p>
+          Réalisation de pages et de fonctionnalités web dans le cadre
+          de projets universitaires.
+        </p>
+        <span class="badge">HTML/CSS</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">PHP</span>
+      </div>
     </section>
 
-    <section>
+    <section class="section reveal">
       <h2>Formation</h2>
-      <ul>
-        <li>M1 Industries de la Langue – Traitement Automatique des Langues</li>
-        <li>Licence en Sciences du langage</li>
-        <li>Diplôme de traduction en langue française</li>
-      </ul>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>M1 Industries de la Langue – TAL</h3>
+          <p>Université Grenoble Alpes</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Licence en Sciences du langage</h3>
+        </div>
+        <div class="timeline-item">
+          <h3>Diplôme de traduction en langue française</h3>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <section id="contact" class="section reveal">
       <h2>Contact</h2>
-      <p>Email : votre-email@example.com</p>
-      <p>GitHub : <a href="https://github.com/votre-username" target="_blank">github.com/votre-username</a></p>
-      <p>LinkedIn : ajoutez votre lien ici si vous en avez un</p>
+      <div class="contact-box">
+        <p><strong>Email :</strong> votre.email@example.com</p>
+        <p><strong>GitHub :</strong> github.com/votre-username</p>
+        <p><strong>LinkedIn :</strong> linkedin.com/in/votre-profil</p>
+      </div>
     </section>
   </main>
+
+  <button id="backToTop">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
